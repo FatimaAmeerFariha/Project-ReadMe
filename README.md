@@ -8,7 +8,6 @@ This project is a simple CRUD (Create, Read, Update, Delete) application in C# t
 The application manages user data stored in the `Info` table of the `MyProject` database.
 
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 ![image](https://github.com/user-attachments/assets/2959af28-35db-4025-ad05-9ff1bcdaec39)
 
 
