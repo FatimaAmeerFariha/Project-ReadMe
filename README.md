@@ -25,7 +25,7 @@ This project is used by the following companies:
 ## Setup Instructions
 
 ### Clone the Repository:
-```http
+```(bash)
   git clone https://github.com/yourusername/your-repo-name.git
 cd your-repo-name
 
@@ -35,7 +35,7 @@ cd your-repo-name
 1. Create the Database `MyProject`
 Run the following SQL query in SQL Server Management Studio (SSMS) to create the `MyProject` database:
 
-```http
+```(bash)
   CREATE DATABASE MyProject;
 
 ```
@@ -43,7 +43,7 @@ Run the following SQL query in SQL Server Management Studio (SSMS) to create the
 2. Create the Table `Info`
 Once the database is created, use the following SQL query to create the `Info` table:
 
-```http
+```(bash)
 USE MyProject;
 
 CREATE TABLE Info (
@@ -84,7 +84,7 @@ To back up the `MyProject` database in SQL Server:
 
 1. Update Connection String
 In the `appsettings.json` file or inside your application's `DbContext` class, update the connection string to point to your local SQL Server instance. Example:
-```http
+```(bash)
   {
   "ConnectionStrings": {
     "DefaultConnection": "Server=your_server_name;Database=MyProject;Trusted_Connection=True;"
@@ -96,14 +96,14 @@ In the `appsettings.json` file or inside your application's `DbContext` class, u
 
 2. Run Database Migrations (if applicable)
 If your project uses Entity Framework, you can run migrations using the Package Manager Console or CLI:
-```http
+```(bash)
 Update-Database
 
 
 ```
 or
 
-```http
+```(bash)
  dotnet ef database update
 
 ```
@@ -128,7 +128,7 @@ You can use SQL Server Management Studio (SSMS) to back up the database and rest
 
 #### Get all items
 
-```http
+```(bash)
   GET /api/items
 ```
 
@@ -138,7 +138,7 @@ You can use SQL Server Management Studio (SSMS) to back up the database and rest
 
 #### Get item
 
-```http
+```(bash)
   GET /api/items/${id}
 ```
 
