@@ -132,3 +132,5 @@ For support, Email: fatimaameerfariha@gmail.com or Watch https://youtu.be/5vOypc
 
 ## License
 
+This project is licensed under the [MIT](https://choosealicense.com/licenses/mit/) License
+
