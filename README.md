@@ -124,32 +124,6 @@ You can use SQL Server Management Studio (SSMS) to back up the database and rest
 
 - Backup: Right-click on the `MyProject` database in SSMS, go to Tasks -> Back Up.
 - Restore: Right-click on the Databases folder in SSMS, select Restore Database, and choose the backup file.
-## API Reference
-
-#### Get all items
-
-```(bash)
-  GET /api/items
-```
-
-| Parameter | Type     | Description                |
-| :-------- | :------- | :------------------------- |
-| `api_key` | `string` | **Required**. Your API key |
-
-#### Get item
-
-```(bash)
-  GET /api/items/${id}
-```
-
-| Parameter | Type     | Description                       |
-| :-------- | :------- | :-------------------------------- |
-| `id`      | `string` | **Required**. Id of item to fetch |
-
-#### add(num1, num2)
-
-Takes two numbers and returns the sum.
-
 
 ## Support
 
