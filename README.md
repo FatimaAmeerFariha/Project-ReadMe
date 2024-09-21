@@ -26,8 +26,8 @@ This project is used by the following companies:
 
 ### Clone the Repository:
 ```(bash)
-  git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
+  git clone https://github.com/FatimaAmeerFariha/Project-ReadMe.git
+cd yProject-ReadMe
 
 ```
 
