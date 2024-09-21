@@ -87,7 +87,7 @@ In the `appsettings.json` file or inside your application's `DbContext` class, u
 ```(bash)
   {
   "ConnectionStrings": {
-    "DefaultConnection": "Server=your_server_name;Database=MyProject;Trusted_Connection=True;"
+    "DefaultConnection": "Data Source=DESKTOP-EMJFMIA\\MSSQLSERVER01;Initial Catalog=MyProject;Integrated Security=True;TrustServerCertificate=True;"
   }
 }
 
